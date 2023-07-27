@@ -1,0 +1,29 @@
+.btn {
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:active {
+    background-color: black;
+  }
+
+  &-primary {
+    background-color: blue;
+  }
+
+  &-secondary {
+    background-color: green;
+  }
+
+  &-danger {
+    background-color: red;
+  }
+
+  &.is-disabled {
+    pointer-events: none !important;
+    color: white !important;
+    background-color: grey !important;
+  }
+}

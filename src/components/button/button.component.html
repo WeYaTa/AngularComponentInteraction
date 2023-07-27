@@ -1,0 +1,4 @@
+<!-- <button [class]="getClassNames()" [class.is-disabled]="disabled" (click)="handleClick()"> -->
+<button [class]="getClassNames()" (click)="handleClick()" [ngClass]="{'is-disabled': disabled}">
+  <ng-content></ng-content>
+</button>
